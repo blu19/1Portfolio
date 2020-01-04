@@ -1,0 +1,170 @@
+/* Styles the header background color and padding */
+.header {
+    background-color: white;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+/* Styles header links */ 
+.header a {
+    text-align: center;
+    float: left;
+    color: gray;
+    max-width: 960px;
+    display: block;
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+
+}
+
+/* Styling my name/title */
+.header a.portfolio {
+    background-color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    width: fit-content;
+    color: white;
+    display: block;
+    float: left;
+}
+
+/* Styling the cursor over the links */
+.header a:hover {
+    background-color: blue;
+    color: white;
+}
+
+/* Background wallpaper */
+.body {
+    background-color: lightblue;
+}
+
+/* Floating the links to the right */
+nav {
+    float: right;
+    border-right: 10px grey;
+}
+
+nav a {
+    display: inline-block;
+    line-height: 20px;
+    color: grey;
+/*
+    padding-left: ;
+    margin-left: ;
+    text-decoration: ;
+    border-left: ; 
+    */
+}
+
+/* Styling box around image and text */
+.box {
+    width: 960px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: auto;
+    background: white;
+}
+
+/* Styling text size */
+h5 {
+    font-size: 24px;
+}
+/* Styling box for contact page */
+.contactbox {
+    width: 960px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: auto;
+    background: white;
+}
+
+/* Styling the input boxes for contact page */
+.inputbox {
+    width: 100%;
+}
+
+/* Styling the button for the contact page */
+
+.submitbutton:hover {
+    background-color:grey;
+}
+
+/* Styling box for portfolio page */
+.portfoliobox {
+    width: 960px;
+    border: 1px solid green;
+    padding: 25px;
+    margin: auto;
+    background: white;
+}
+
+/* Styling portfolio */
+.row {
+    margin: 8px;
+}
+
+/* Styling for 3 columns to float next to each other */
+/* Not floating though; stacking and not going side by side */
+.tile {
+    float: left;
+    width: 200px;
+    position: relative;
+}
+
+.tile img {
+    height: 200px;
+}
+
+/* Styling so the content is inside the portfoliobox */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Styling around image in about me */
+img {
+    float: left;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 1px;
+    width: 200px;
+}
+
+/* Styling for the text in about me section--might affect other p tags? */
+p {
+    font: bold;
+    font-size: larger;
+    color: navy;
+}
+
+/* Styling of body so footer doesn't cover content */
+body {
+    min-height: fit-content;
+    margin-bottom: 100px;
+    clear: both;
+}
+
+/* Styling of footer--Covering content rn */
+footer {
+    text-align: center;
+    color: white;
+    background-color: #777777;
+    width: 100%;
+    height: 30px;
+    bottom: 0px;
+    left: 0px;
+    position: fixed;
+    border-width: 5px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-color: #4aaaa5;
+    border-style: solid;
+    margin-bottom: 0%;
+    padding: 20px;
+    display: block;
+
+}
